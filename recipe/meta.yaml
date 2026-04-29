@@ -27,7 +27,7 @@ requirements:
     - azure-common >=1.1
     - azure-mgmt-core >=1.3.2
 
-tests:
+test:
   imports:
     - azure.mgmt.servicelinker
     - azure.mgmt.servicelinker.aio
